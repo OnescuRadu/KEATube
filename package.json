@@ -1,0 +1,26 @@
+{
+  "name": "keatube",
+  "version": "1.0.0",
+  "description": "A basic video site.",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env PORT=80 node app.js",
+    "start-dev": "cross-env PORT=3000 nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "video",
+    "videos",
+    "tube"
+  ],
+  "author": "Onescu Radu Mihai <mail@raduonescu.com> (https://raduonescu.com)",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
